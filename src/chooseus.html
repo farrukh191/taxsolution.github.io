@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <style>
+        .bk {
+            /* background-image: url('../uploads/register-a-company.jpg'); */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../uploads/register-a-company.jpg);
+            background-size: cover;
+            height: 100vh;
+            height: auto;
+            color: white !important;
+            word-wrap: break-word;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+
+        .column4 img {
+            width: 100%;
+            height: 100vh;
+            /* margin: 2% 0% 0% 5%; */
+        }
+
+        .cent {
+            text-align: center !important;
+            font-weight: 900;
+            padding-bottom: 3%;
+            font-weight: 900;
+            font-size: 23px;
+            margin: 0 auto;
+        }
+
+        .centpara {
+            font-weight: 900;
+            color: rgb(40, 236, 105);
+            font-weight: 900;
+            font-size: 20px;
+        }
+
+        .p-3 {
+            height: 200px;
+            text-align: justify;
+            border-bottom: 2px solid #00132a;
+        }
+
+        .card {
+            color: black !important;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuYW6qNq7vqQdMM5d6O85w8pJrcZvgdM3BzbPQbY8e9mAdZxHX4USxc8YolBehANqZsKY&usqp=CAU');
+            color: whitesmoke !important;
+        }
+
+        ul li {
+            text-decoration: none;
+            list-style: none;
+            font-size: 18px;
+            word-wrap: break-word;
+            padding-bottom: 2%;
+        }
+
+        @media (max-width: 799.98px) {
+            .ruby {
+
+                height: auto;
+                width: 78vw !important;
+                display: block;
+            }
+
+        }
+
+        @media (max-width: 799.98px) {
+            .logoo2 {
+                margin: 0px 0px 0px -31px;
+            }
+        }
+
+        @media (max-width: 987.98px) {
+            .logoo2 {
+                margin: 0px 0px 0px -20px;
+                display: block;
+                float: left;
+                word-wrap: break-word;
+                display: flex;
+            }
+        }
+
+        
+
+        .container {
+            margin-bottom: 6%;
+        }
+
+
+        .logoo2 {
+            width: 70px;
+            height: 70px;
+
+            background-color: white;
+            border-radius: 60px;
+
+        }
+        .ruby h2{
+            color: black;
+            font-weight: 500;
+        }
+        .ruby p{
+            font-size: 18px;
+            color: #625F5F;
+        }
+        .logoo2 img {
+
+            /* background-image: url('../uploads/money-check-alt-solid.svg'); */
+            width: 43px;
+            height: 40px;
+
+            margin: 15px 0px 0px 13px;
+            object-fit: cover;
+            border-radius: 5px;
+            background-size: cover;
+        }
+
+        /* .list{
+            width: 570px; 
+            margin: 2% auto;
+        } */
+
+        @media (max-width: 280px) {
+            .list{
+                margin-left: -19px;
+            }
+            .col-5 .ruby{
+                margin: 70px 0px 0px -50px;
+            }
+            .col-5 .ruby p{
+                text-align: justify;
+            }
+        }
+        @media (max-width: 580px) {
+            .list{
+                margin-left: -19px;
+            }
+            .col-5 .ruby{
+                margin: 70px 0px 0px -50px;
+            }
+            .col-5 .ruby p{
+                text-align: justify;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light"
+                style="background: rgba(21,30,36,0.8) !important; ">
+                <div>
+                    <img src="../uploads/2020/08/cropped-Bkk4S-logo-3.png" alt="logo"
+                        style="width: 250px; padding-right: 35%;">
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span style="background-color: seashell !important;" class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="color: seashell !important;">
+                    <a class="navbar-brand" href="../index.html">Home</a>
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="./services.html">Services</a>
+                        <a class="nav-item nav-link" href="./book.html">Book Now</a>
+                        <a class="nav-item nav-link" href="./chooseus.html">Why Choose Us</a>
+                        <a class="nav-item nav-link" href="./aboutus.html">About us</a>
+                        <a class="nav-item nav-link" href="./contactus.html">contact us</a>
+
+                        <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+                    </div>
+                </div>
+
+            </nav>
+            <div class="elementor-widget-container">
+                <p class="elementor-heading-title elementor-size-default">Why Choose Us?</p>		</div>
+
+        </header>
+
+
+
+
+
+
+
+        <div class="row1 ">
+           
+            <div class="column4">
+
+
+
+
+
+                <div class="list">
+
+
+
+
+
+
+
+
+
+                    <h2 style="font-weight: bolder; padding-bottom: 5%;">Why Choose Us?</h2>
+                    
+
+                    <div class="container" style="  height: auto;">
+                        <div class="row">
+                            <div class="col-1" style="  margin-left: -2%;">
+                                <div class="logoo2">
+                                    <i><img src="../uploads/pen-nib-solid.svg" alt="" srcset=""></i>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <div class="ruby">
+                                    <h2>Every Detail Reviewed</h2>
+                                    <p>We offer a full range of accounting packages to assist you to run your business.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="container" style="  height: auto;">
+                        <div class="row">
+                            <div class="col-1" style="  margin-left: -2%;">
+                                <div class="logoo2">
+                                    <i><img src="../uploads/thumbs-up-solid.svg" alt="" srcset=""></i>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <div class="ruby">
+                                    <h2>Leading Accountants</h2>
+                                    <p>Our advisors can provide you with expert advice and positive solutions in federal
+                                        and state tax legislation. Give us a call with your questions or situation!</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="container" style="  height: auto;">
+                        <div class="row">
+                            <div class="col-1" style=" margin-left: -2%;">
+                                <div class="logoo2">
+                                    <i><img src="../uploads/money-check-alt-solid.svg" alt="" srcset=""></i>
+                                </div>
+                            </div>
+                            <div class="col-5" style=" width: 100%;">
+                                <div class="ruby">
+                                    <h2>Competitive Price</h2>
+                                    <p>We provide professional bookkeeping and accounting services at the most
+                                        competitive price. Contact us for a free quote.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="column4 img">
+
+
+                <img src="../uploads/tax-agent-new.jpg" alt="" srcset="">
+
+            </div>
+
+
+            <!-- <div class="service">
+                <h2>What can we help you with?</h2>
+            </div> -->
+
+
+        </div>
+
+
+
+
+
+
+
+        <footer>
+            <ul>
+                <li>Our services <span style="padding-left: 7px;">|</span></li>
+                <li>home <span style="padding-left: 7px;">|</span></li>
+                <li>bookkeeping <span style="padding-left: 7px;">|</span></li>
+                <li>tax returns <span style="padding-left: 7px;">|</span></li>
+                <li>business activity statement <span style="padding-left: 7px;">|</span></li>
+                <li>payroll <span style="padding-left: 7px;">|</span></li>
+                <li>review & fix <span style="padding-left: 7px;">|</span></li>
+                <li>setup & assist <span style="padding-left: 7px;">|</span></li>
+                <li>about us <span style="padding-left: 7px;">|</span></li>
+                <li>contact us</li>
+            </ul>
+
+            <div class="bottomm">
+                <p>Proudly powered by web developer.</p>
+            </div>
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .bk {
+            /* background-image: url('../uploads/register-a-company.jpg'); */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../uploads/register-a-company.jpg);
+            background-size: cover;
+            height: 100vh;
+            height: auto;
+            color: white !important;
+            word-wrap: break-word;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+
+        .column4 img {
+            width: 80%;
+            height: 420px;
+            margin: 2% 0% 0% 5%;
+        }
+
+        .cent {
+            text-align: center !important;
+            font-weight: 900;
+            padding-bottom: 3%;
+            font-weight: 900;
+            font-size: 23px;
+            margin: 0 auto;
+        }
+
+        .centpara {
+            font-weight: 900;
+            color: rgb(40, 236, 105);
+            font-weight: 900;
+            font-size: 20px;
+        }
+
+        .p-3 {
+            height: 200px;
+            text-align: justify;
+            border-bottom: 2px solid #00132a;
+        }
+
+        .card {
+            color: black !important;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuYW6qNq7vqQdMM5d6O85w8pJrcZvgdM3BzbPQbY8e9mAdZxHX4USxc8YolBehANqZsKY&usqp=CAU');
+            color: whitesmoke !important;
+        }
+
+        ul li {
+            text-decoration: none;
+            list-style: none;
+            font-size: 18px;
+            word-wrap: break-word;
+            padding-bottom: 2%;
+        }
+
+        .tax {
+            width: 480px;
+            /* margin-left: 10% !important; */
+            margin: 2% auto;
+
+        }
+
+        @media (max-width: 280px) {
+            .cent1 {
+
+                font-size: 16px;
+                padding-bottom: 20px
+            }
+
+            .cent2 {
+                font-size: 30px;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            .cent3 ul {
+
+                width: 239px;
+                font-size: 8px;
+            }
+
+            .cent3 ul li {
+                font-size: 15px;
+            }
+
+            .tax {
+
+                width: 239px;
+            }
+
+            .p-3 {
+                height: auto;
+            }
+
+            .p-3 .card {
+                text-align: left;
+                font-size: 18px;
+            }
+            .img{
+                border: 2px solid firebrick;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light"
+                style="background: rgba(21,30,36,0.8) !important; ">
+                <div>
+                    <img src="../uploads/2020/08/cropped-Bkk4S-logo-3.png" alt="logo"
+                        style="width: 250px; padding-right: 35%;">
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span style="background-color: seashell !important;" class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="color: seashell !important;">
+                    <a class="navbar-brand" href="../index.html">Home</a>
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="./services.html">Services</a>
+                        <a class="nav-item nav-link" href="./book.html">Book Now</a>
+                        <a class="nav-item nav-link" href="./chooseus.html">Why Choose Us</a>
+                        <a class="nav-item nav-link" href="./aboutus.html">About us</a>
+                        <a class="nav-item nav-link" href="./contactus.html">contact us</a>
+
+                        <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+                    </div>
+                </div>
+
+            </nav>
+            <div class="elementor-widget-container">
+                <p class="elementor-heading-title elementor-size-default">Our Services</p>
+            </div>
+        </header>
+
+
+
+        <p class="cent cent1" style="padding: 2%;">OUR SERVICES</p>
+        <!-- 
+        <div class="row" style="width: 70%;">
+            <div class="column">
+                <p style="font-size: 35px; padding: 4% 0% 1% 0%; font-weight:500; color: black; ">About Us</p>
+
+            </div>
+            <div class="column">
+                <p style="font-size: 16px; text-align: justify;">
+                    Chartered Accountants Ireland (The Institute) is a membership body representing 29,500 influential
+                    members throughout the globe. Our role is to educate, represent and support our members. Our members
+                    work in senior positions in practice and industry. We are committed to restoring confidence at every
+                    level of the economy. We work with governments and businesses to raise awareness of the importance
+                    of sound financial advice.
+
+                    <br>
+                    <br>
+
+                    Chartered Accountants Ireland was established as the Institute of Chartered Accountants in Ireland
+                    by Royal Charter in 1888. Its activities and those of its members are governed by its Bye-Laws and
+                    by Rules relating to professional and ethical conduct. These provisions are contained in the
+                    Handbook which is available to all members.
+
+                    <br>
+                    <br>
+
+                    Chartered Accountants Ireland is governed by a Council and it is responsible for determining policy
+                    and monitoring its implementation. Council is lead by the Officer Group and supported by the
+                    Management Team and staff. A number of committees with voluntary member involvement also play a key
+                    role.
+                </p>
+            </div>
+
+
+
+        </div> -->
+
+
+        <div class="row1 bg bk">
+            <p class="cent cent1">PERSONALISED TAX SERVICE, EXPERT ADVICE AND ONE-ON-ONE ATTENTION</p>
+            <div class="column4 cent3">
+                <div class="tax">
+                    <h1 class="cent2">TAX RETURNS</h1>
+                    <P class="centpara">FROM JUST 77$</P>
+                    <P class="centpara">Option To Get Your Tax Return Done Via Video Call</P>
+
+
+                    <div class="elementor-widget-container">
+                        <ul class="elementor-icon-list-items">
+                            <li class="elementor-icon-list-item">
+                                <span class="elementor-icon-list-icon">
+                                    <i aria-hidden="true" class="fa fa-check-circle"></i>
+                                </span>
+                                <span class="elementor-icon-list-text">Virtual Appointment / Meeting with your local
+                                    Consultant</span>
+                            </li>
+                            <li class="elementor-icon-list-item">
+                                <span class="elementor-icon-list-icon">
+                                    <i aria-hidden="true" class="fa fa-check-circle"></i>
+                                </span>
+                                <span class="elementor-icon-list-text">After hour appointments available</span>
+                            </li>
+                            <li class="elementor-icon-list-item">
+                                <span class="elementor-icon-list-icon">
+                                    <i aria-hidden="true" class="fa fa-check-circle"></i>
+                                </span>
+                                <span class="elementor-icon-list-text">Returns lodged same business day</span>
+                            </li>
+                            <li class="elementor-icon-list-item">
+                                <span class="elementor-icon-list-icon">
+                                    <i aria-hidden="true" class="fa fa-check-circle"></i>
+                                </span>
+                                <span class="elementor-icon-list-text">Returns typically paid in 10 days!</span>
+                            </li>
+                            <li class="elementor-icon-list-item">
+                                <span class="elementor-icon-list-icon">
+                                    <i aria-hidden="true" class="fa fa-check-circle"></i>
+                                </span>
+                                <span class="elementor-icon-list-text">ATO - Approved Tax Agent</span>
+                            </li>
+                            <li class="elementor-icon-list-item">
+                                <span class="elementor-icon-list-icon">
+                                    <i aria-hidden="true" class="fa fa-check-circle"></i>
+                                </span>
+                                <span class="elementor-icon-list-text">CALL US: 0401354251</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="column4">
+
+
+                <img src="../uploads/Online-conference.jpg" alt="" srcset="" class="rightimg">
+
+            </div>
+
+
+            <!-- <div class="service">
+                <h2>What can we help you with?</h2>
+            </div> -->
+
+
+        </div>
+
+
+
+        <div class="row1">
+            <div class="column1 ">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <p class="card">Day to Day Bookkeeping</p>
+                    Processing your business transactions based on bank statements, invoices and receipts, keeping you
+                    up to date and on track.
+                </div>
+            </div>
+            <div class="column1">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <p class="card">Accounts Payable & Receivable </p>
+                    Reconciling and providing payable and receivable reports so you know what you have to pay and how
+                    much you are owed to manage cash flow.
+                </div>
+
+            </div>
+            <div class="column1">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <p class="card">Debtor Management </p>
+                    Sending reminder emails to your customers who owe you money to ensure you get paid on time.
+                </div>
+            </div>
+
+            <div class="column1">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <p class="card">Payroll Services </p>
+                    Processing your payroll and superannuation payments to ensure your staff are paid correctly and on
+                    time. We ensure you meet your obligations as an employer.
+                </div>
+            </div>
+            <div class="column1">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <p class="card">Business Advisory Services </p>
+                    With over 10 years experience implementing processes and solutions for businesses, we are an ideal
+                    partner to optimise your business efficiency and operations.
+                </div>
+            </div>
+            <div class="column1">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <p class="card">Regular Reporting </p>
+                    Providing regular financial and performance reports including Profit & Loss Statements and Balance
+                    Sheets so you can monitor the performance of your business.
+                </div>
+            </div>
+            <div class="column1">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <p class="card">Online Bill Payments </p>
+                    Set up payments for bills, payroll, superannuation and ATO liabilities through your online banking
+                    so all you have to do is authorise the payment when you are ready.
+                </div>
+            </div>
+            <div class="column1">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <p class="card">BAS Lodgement Services </p>
+                    Our experienced Tax and BAS Agents can keep your business compliant with ATO regulations to ensure
+                    your accounts are always up-to-date and to mimimise your tax liability.
+                </div>
+            </div>
+            <div class="column1">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <p class="card">Tax Planning </p>
+                    Our tax advisory team can develop strategies to maximise the tax refund for your business while
+                    meeting compliance and reporting requirements and enhancing your wealth.
+                </div>
+            </div>
+            <div class="column1">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <p class="card">Bank Reconciliations </p>
+                    Comparing your accounting records and documents with your bank statements to ensure suppliers are
+                    paid correct amounts and customers have paid invoices on time.
+                </div>
+            </div>
+            <div class="column1">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <p class="card">Tax Return Services </p>
+                    Our highly experienced tax consultants will work with you to identify all deducations to mimise your
+                    income tax and GST liability.
+                </div>
+            </div>
+            <div class="column1">
+                <div class="shadow p-3 mb-5 bg-white rounded">
+                    <p class="card">Budgeting </p>
+                    Forecasting your income and expenditure and comparing actual results to see if your business is
+                    operating in line with budgets.
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+        <footer>
+            <ul>
+                <li>Our services <span style="padding-left: 7px;">|</span></li>
+                <li>home <span style="padding-left: 7px;">|</span></li>
+                <li>bookkeeping <span style="padding-left: 7px;">|</span></li>
+                <li>tax returns <span style="padding-left: 7px;">|</span></li>
+                <li>business activity statement <span style="padding-left: 7px;">|</span></li>
+                <li>payroll <span style="padding-left: 7px;">|</span></li>
+                <li>review & fix <span style="padding-left: 7px;">|</span></li>
+                <li>setup & assist <span style="padding-left: 7px;">|</span></li>
+                <li>about us <span style="padding-left: 7px;">|</span></li>
+                <li>contact us</li>
+            </ul>
+
+            <div class="bottomm">
+                <p>Proudly powered by web developer.</p>
+            </div>
+        </footer>
+</body>
+
+</html>
